@@ -10,5 +10,7 @@ The current code on the Pi creates an intervalometer and triggers the camera eve
 ### NOTE
 Do not use a raspberry Pi 4. There are problems with the T265 dropping connection with the Raspberry Pi 4 at random intervals. Raspberry Pi 3 works great. 
 
+
+### FB Group
 Join the FB group where I'll be posting more updates
 https://www.facebook.com/groups/diyphotogrammetryhardware/

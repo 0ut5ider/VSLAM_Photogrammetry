@@ -24,4 +24,7 @@ When the intervalometer is running, a photo will be taken (using the gphoto2 lib
 A new row entry will be added to the log file with the `Image Name, x, y, z, roll, pitch, yaw, date/time`  
 
 ### CAUTION
-Don't forget to clear out the images folder between photography sessions. The script will not clear the data in there, and some funky things may happen if you don't
+Don't forget to clear out the images folder between photography sessions. The script will not clear the data in there, and some funky things may happen if you don't 
+
+If you want the script to run at bootup, use crontab -e and add @reboot followed by the path to you your script  
+Example entry in crontab:  `@reboot python3 /home/user/script.py`
